@@ -1,0 +1,26 @@
+Implementation of algorithms from the paper
+
+Monoid machines: a O(log n) parser for regular languages
+Armando B. Matos
+2006
+
+Supplies parse functions which convert the input DFA into its 
+corresponding transitional monoid representation and parses the input string
+according to the algorithms outlined in the paper.
+
+p prefixes indicate paralell methods
+
+The sequential algorithm runs in linear time in the input word size and the 
+parallel algorithm approaches logarithmic time as the number of processes increases.
+
+See the file for a write up including an example and pertinent definitions from the paper.
+
+Use:
+    Use either the parse or pparse functions to parse an input word by converting the input DFA to its 
+    transitional monoid and running the algorithm.
+
+    Can create DFA accept function on input, or use supplied createAccept' finals start to create one for you.
+
+Enjoy!
+
+*Idiomatic Haskell edits and parallel implementation by Samuel Schlesinger.
