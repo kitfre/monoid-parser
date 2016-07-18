@@ -24,3 +24,6 @@ Use:
 Enjoy!
 
 *Idiomatic Haskell edits and parallel implementation by Samuel Schlesinger.
+
+----------------------------------------------------------------------------
+An OCaml implementation of sequential algorithm has been added as well.
